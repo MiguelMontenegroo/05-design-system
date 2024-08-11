@@ -1,4 +1,4 @@
-declare const colort: {
+declare const colors: {
     white: string;
     black: string;
     gray100: string;
@@ -76,4 +76,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { colort, fontSizes, fontWeights, fonts, lineHeights, radii, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };

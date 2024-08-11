@@ -1,5 +1,5 @@
 // ../tokens/dist/index.mjs
-var colort = {
+var colors = {
   white: "#FFF",
   black: "#000",
   gray100: "#E1E1E6",
@@ -16,5 +16,11 @@ var colort = {
   ignite900: "#00291D"
 };
 
-// src/index.ts
-console.log(colort);
+// src/index.tsx
+import { jsx } from "react/jsx-runtime";
+function App() {
+  return /* @__PURE__ */ jsx("h1", { style: { color: colors.ignite300 }, children: "Hello World" });
+}
+export {
+  App
+};

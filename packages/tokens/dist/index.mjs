@@ -1,5 +1,5 @@
 // src/colors.ts
-var colort = {
+var colors = {
   white: "#FFF",
   black: "#000",
   gray100: "#E1E1E6",
@@ -83,7 +83,7 @@ var lineHeights = {
   tall: "180%"
 };
 export {
-  colort,
+  colors,
   fontSizes,
   fontWeights,
   fonts,

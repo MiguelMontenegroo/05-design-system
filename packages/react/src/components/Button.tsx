@@ -25,7 +25,6 @@ export const Button = styled('button', {
   },
 
   '&:disabled': {
-    backgroundColor: '$gray200',
     cursor: 'not-allowed',
   },
 
@@ -60,7 +59,7 @@ export const Button = styled('button', {
       },
 
       tertiary: {
-        color: '$gray400',
+        color: '$gray100',
 
         '&:not(:disabled):hover': {
           color: '$white',
@@ -69,7 +68,6 @@ export const Button = styled('button', {
         '&:disabled': {
           color: '$gray600',
         },
-      },
       },
     },
 

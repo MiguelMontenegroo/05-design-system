@@ -7,7 +7,14 @@ title: 'Data display/Avatar',
   args: {
     src: 'https://github.com/MiguelMontenegroo.png',
     alt: 'Miguel Montenegro',
-  }
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
